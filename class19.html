@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: grid;
+            gap: 10px;
+            grid-template-areas: 
+            
+            "nav nav"
+            "sec1 sec2"
+            "sec4 sec3"
+            "footer footer"
+            
+            ;
+        }
+        .red{
+            background-color: brown;
+        }
+        .blue{
+            background-color: coral;
+        }
+        nav{
+            background-color: teal;
+        }
+        section{
+            background-color: red;
+        }
+        footer{
+            background:green;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav style="grid-area: nav">NAV</nav>
+        <section class="red"style="grid-area: sec1">SECTION</section>
+        <section class="red"style="grid-area: sec2">SECTION</section>
+        <section  class="blue" style="grid-area: sec3">SECTION</section>
+        <section  class="blue"style="grid-area: sec4">SECTION</section>
+        <footer style="grid-area: footer">FOOTER</footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: grid;
+            grid-template-areas: 
+            "a a a a"
+            "b b b c"
+            "d e e e"
+            "f f f f"
+            "g g h h"
+            "i j k l"
+            ;
+        }
+        div{
+            background-color: red;
+            /* width: 100px; */
+            height: 100px;
+        }
+        #a{
+            background-color: pink;
+           grid-area: a
+        }
+        #b{
+           background-color: black;
+           grid-area: b
+           
+          
+        }
+        #c{
+           background-color: aqua;
+           grid-area: c
+           
+        }
+        #d{
+           background-color: aquamarine;
+           grid-area: d
+           
+        }
+        #e{
+           background-color: azure;
+           grid-area: e
+           
+        }
+        #f{
+           background-color: blue;
+           grid-area: f
+           
+           
+        }
+        #g{
+           background-color: blueviolet;
+           grid-area: g
+           
+        }
+        #h{
+           background-color: brown;
+           grid-area: h
+        }
+        #i{
+           background-color: chartreuse;
+           grid-area: i
+           
+          
+        }
+        #j{
+           background-color: chocolate;
+           grid-area: j
+        }
+        #k{
+           background-color: cornflowerblue;
+           grid-area: k
+           
+        }
+        #l{
+           background-color: darkmagenta;
+           grid-area: l
+           
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="a">1</div>
+        <div id="b">2</div>
+        <div id="c">3</div>
+        <div id="d">4</div>
+        <div id="e">5</div>
+        <div id="f">6</div>
+        <div id="g">7</div>
+        <div id="h">8</div>
+        <div id="i">9</div>
+        <div id="j">10</div>
+        <div id="k">11</div>
+        <div id="l">12</div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script sce="https://kit.fontawesome.com/a55cf239a3.js"crossorigin="anonymous"></script>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       } 
+       main{
+        background-color: wheat; 
+        height: 400px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+       }
+       nav{
+          background-color:teal;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          /* gap:30px; */
+          justify-content: space-between;
+          padding: 15px;
+          
+       }
+       #nav-div{
+        display: flex;
+        gap: 15px;
+        padding: 25px;
+       }
+       a{
+        text-decoration: 0;
+        color: wheat;
+       }
+       section{
+        background-color:green;
+        /* height: 100px; */
+        padding: 20px;
+       }
+       .sec-img-div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+      }
+      .img-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: brown;
+       
+       
+      }
+       footer{
+        background-color:black;
+        
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        color: white;
+       }
+      #left-footer,#right-footer{
+        
+        width: 40%;
+        
+        
+       }
+
+       /* .sec-img{
+            width: 120px;
+           height: 160px;
+       }
+        */
+    </style>
+</head>
+<body>
+    <main>
+       
+    <nav>
+        <a href="https://www.google.com">Home</a>
+        <div id="nav-div">
+            <p>About</p>
+            <p>Contect</p>
+            <p>Services</p>
+        </div>
+    </nav>
+    <section>
+        <h1 style="text-align: center;margin-bottom: 15px;">Students</h1>
+        <div class="sec-img-div">
+            <div class="img-wrap">
+                <img class="sec-img" src="image/img1.jpg" alt="">
+                <p>Name:-Ram</p>
+                <p>Email:xyz</p>
+                <button>Know more</button>
+            </div>
+            <div class="img-wrap">
+                <img class="sec-img" src="image/img1.jpg" alt="">
+                <p>Name:-Ram</p>
+                <p>Email:xyz</p>
+                <button>Know more</button>
+            </div>
+        <div class="img-wrap">
+            <img class="sec-img" src="image/img3.jpg" alt="">
+            <p>Name:-seeta</p>
+            <p>Email:xyz</p>
+            <button>Know more</button>
+        </div>
+        <div class="img-wrap">
+            <img class="sec-img" src="image/img4.jpg" alt="">
+            <p>Name:-Ram</p>
+            <p>Email:xyz</p>
+            <button>Know more</button>
+        </div>
+        <div class="img-wrap">
+            <img class="sec-img" src="image/img5.jpg" alt="">
+            <p>Name:-sita</p>
+            <p>Email:xyz</p>
+            <button>Know more</button>
+        </div>
+    </section>
+    <section></section>
+    <footer>
+       <div id="left-footer"> 
+        <p>Address:XYZ</p>
+        <p>Email: hguilh@gmail</p>
+        <p> Number:098765434</p>
+       </div>
+       <div id="right-footer">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+       </div>
+    </footer>
+</body>
+</html>

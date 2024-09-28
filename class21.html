@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+    
+       } 
+       body{
+        padding: 100px;
+       }
+       div{
+        background-color: red;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: blink 2s infinite;
+       }
+
+
+       @keyframes blink {
+                   from{
+                     background-color: red;
+                     font-size: 10px;
+
+                   }
+
+                   to{
+                     background-color: green;
+                     font-size: 50px;
+                   }
+
+        
+       }
+
+       button:hover{
+        /* transform: translate(-10px,10px); */
+        /* transform: rotate(90deg); */
+       }
+      
+       div:hover{
+        /* transform: skewX(50deg); */
+        /* transform:skew(30deg,50deg); */
+        transform: scale(1.5); 
+       }
+       
+       img{ 
+        width: 50px;
+        height: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+         
+            <!-- <img src="Img.jpg" alt="image"> -->
+      <p>Apply Now</p>
+    </div>
+    <!-- <button>Click to me rotate</button> -->
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        main{
+            display: grid;
+            /* gap: 10px; */
+            /* grid-template-columns: repeat(auto-fit ,minmax(100px ,25%)); */
+            grid-template-columns: repeat(5,200px);
+            justify-content: center;
+        }
+        div{
+            background-color: red;
+            
+            height: 100px;
+        }
+        #a{
+            background-color: pink;
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+          
+        }
+        #b{
+            background-color: black;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+          
+        }
+        #c{
+            background-color: aqua;
+           
+        }
+        #d{
+            background-color: aquamarine;
+           
+        }
+        #e{
+            background-color: azure;
+           
+        }
+        #f{
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+           
+        }
+        #g{
+            background-color: blueviolet;
+           
+        }
+        #h{
+            background-color: brown;
+        }
+        #i{
+            background-color: chartreuse;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+          
+        }
+        #j{
+            background-color: chocolate;
+           
+        }
+        #k{
+            background-color: cornflowerblue;
+           
+        }
+        #l{
+            background-color: darkmagenta;
+           
+        }
+    </style>
+</head>
+<body>
+    <main>
+          <div id="a">1</div>
+          <div id="b">2</div>
+          <div id="c">3</div>
+          <div id="d">4</div>
+          <div id="e">5</div>
+          <div id="f">6</div>
+          <div id="g">7</div>
+          <div id="h">8</div>
+          <div id="i">9</div>
+          <div id="j">10</div>
+          <div id="k">11</div>
+          <div id="l">12</div>
+    </main>
+</body>
+</html>
